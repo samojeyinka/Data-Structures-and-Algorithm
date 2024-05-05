@@ -1,0 +1,8 @@
+What is good code
+
+1. Readability - clean code,others can read and understand your code
+2. Scalability - scalable code,BigO gave us the ideq to measure the Scalability/performance
+of a code
+
+BigO notion is the language we used for  talking about how long an Algorithm takes to run,we can compare two different
+Algorithm using BigO to see which on is better in Scalability regardless of the computer differences
