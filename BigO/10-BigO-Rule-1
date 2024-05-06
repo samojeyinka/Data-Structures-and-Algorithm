@@ -1,0 +1,46 @@
+//Worst case
+
+const samuel = ["samuel"];
+const moneyHeist = [
+  "Tokyo","The Professor","Nairobi","Rio","Denver",
+  "Raquel","Helsinki","Gradia","Arturo","Monica",
+  "samuel","Allision Parker"];
+
+const large = new Array(1000).fill("samuel");
+   
+function findSamuel(array) {
+  for (let i = 0; i < array.length; i++) {
+    console.log("running");
+    if (array[i] === "samuel") {
+      console.log("Found samuel");
+      break;
+    }
+  }
+}
+
+
+    findSamuel(moneyHeist);
+
+
+
+/*Though samuel is the 11th in the array but the loop will still run 12 times despite 
+"samuel" earlier 
+
+To make the code efficient so that it wont run all through the array despite already found it.we an use "break"
+to break out of the loop immediately the condition is met
+
+The worst case - The worst case is when "samuel" is at the very end of the array  bcs it will still run the array.length*/
+// const moneyHeist = [
+//     "Tokyo","The Professor","Nairobi","Rio","Denver",
+//     "Raquel","Helsinki","Gradia","Arturo","Monica","Allision Parker","samuel"];
+
+//     findSamuel(moneyHeist);
+
+
+//The Best case - The bestt case is when "samuel" is at the very begning of the array bcs it will just run once
+// const moneyHeist = [
+//     "samuel","Tokyo","The Professor","Nairobi","Rio","Denver",
+//     "Raquel","Helsinki","Gradia","Arturo","Monica","Allision Parker"];
+
+//     findSamuel(moneyHeist);
+  

@@ -3,19 +3,9 @@
 
 const samuel = ["samuel"];
 const moneyHeist = [
-  "Tokyo",
-  "The Professor",
-  "Nairobi",
-  "Rio",
-  "Denver",
-  "Raquel",
-  "Helsinki",
-  "Gradia",
-  "Arturo",
-  "Monica",
-  "samuel",
-  "Allision Parker",
-];
+  "Tokyo","The Professor","Nairobi","Rio","Denver",
+  "Raquel","Helsinki","Gradia","Arturo","Monica",
+  "samuel","Allision Parker"];
 
 const large = new Array(1000).fill("samuel");
 

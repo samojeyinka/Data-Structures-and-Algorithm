@@ -1,0 +1,4 @@
+Rule 1: Worst case
+Rule 2: Remove constants
+Rule 3: Different terms for inputs
+Rule 4: Drop Non Dominants
