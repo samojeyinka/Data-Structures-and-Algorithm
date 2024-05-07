@@ -16,6 +16,8 @@ function compressBoxes(boxes1, boxes2){
 
 compressBoxes(boxes1,boxes2);
 
+//The rule number 3 - Different terms for inputs
+
 /* When we loop through the same boxes in the both forEach,we can say the BigO is O(2n)=> O(n) 
 but in the situation above where two different boxes are being looped through. The BigO is O(a + b)
 
