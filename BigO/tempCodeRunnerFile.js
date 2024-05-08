@@ -1,1 +1,1 @@
-console.log(number);
+console.log('ehkbkdebejknejnne'.length)
